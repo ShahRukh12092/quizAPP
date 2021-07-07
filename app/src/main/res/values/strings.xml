@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">Quizz</string>
+    <string name="quote">Life is not a multiple choice test,"\n" it\'s an open-book essay exam.</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome">Welcome to MegaQuiz</string>
+    <string name="wave">wave pics</string>
+    <string name="welcome_svg">welcome pics</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="please">please enter credentials to continue</string>
+    <string name="login_heading">LOGIN</string>
+    <string name="dont">Do not have account? Sign Up</string>
+    <string name="signup_heading">SIGNUP</string>
+    <string name="Confpassword">Confirm the Password</string>
+    <string name="have">Already have a account? Signin</string>
+    <string name="Signup">SIGN UP</string>
+    <string name="quiz_yourself_daily">Quiz yourself Daily</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="sub">Submit</string>
+    <string name="megaquiz">MegaQuiz</string>
+    <string name="logout">LOGOUT</string>
+    <string name="your_score_is">Your Score is</string>
+    <string name="home">Home</string>
+</resources>

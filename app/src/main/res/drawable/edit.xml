@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <solid android:color="@color/editBG"></solid>
+    <corners android:radius="4dp"></corners>
+    <size android:height="41dp"></size>
+    <padding android:bottom="8dp" android:top="8dp" android:left="17dp" android:right="8dp"></padding>
+<stroke android:color="@color/editBO" android:width="3dp"></stroke>
+
+</shape>

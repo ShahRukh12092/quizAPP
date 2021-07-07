@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activites.signup">
+
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center_vertical"
+        android:paddingStart="30dp"
+        android:paddingEnd="30dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Ptext"
+            style="@style/TextAppearance.AppCompat.Headline"
+            android:text="@string/signup_heading" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/Ptext"
+            android:text="Enter your Email and Password \n to register your account" />
+
+        <EditText
+            android:id="@+id/signupEmail"
+            android:background="@drawable/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="33dp"
+            android:textSize="17sp"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/signupPassword"
+            android:background="@drawable/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="16dp"
+            android:textSize="17sp"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+
+
+        <EditText
+            android:id="@+id/signupConf_Password"
+            android:background="@drawable/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="16dp"
+            android:textSize="17sp"
+            android:hint="@string/Confpassword"
+            android:inputType="textPassword" />
+
+        <Button
+            android:layout_marginTop="22dp"
+            android:id="@+id/signupbtn"
+            android:layout_width="match_parent"
+            android:background="@drawable/btn"
+            android:layout_height="wrap_content"
+            android:text="@string/Signup"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:id="@+id/signinClick"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"
+            android:textColor="@color/Ptext"
+            android:layout_height="wrap_content"
+            android:text="@string/have" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="420dp"
+        android:layout_height="166dp"
+        android:contentDescription="@string/wave"
+        android:scaleType="centerCrop"
+        android:src="@drawable/wave"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
