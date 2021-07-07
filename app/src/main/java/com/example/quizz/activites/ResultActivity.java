@@ -18,6 +18,7 @@ public class ResultActivity extends AppCompatActivity {
     Gson gson=new Gson();
     Quiz quiz=new Quiz();
     Button home;
+    String name;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
